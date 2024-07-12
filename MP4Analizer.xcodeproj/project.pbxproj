@@ -7,6 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4101DA962C419443000C130C /* DataEntryUrlBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA952C419443000C130C /* DataEntryUrlBoxDetailView.swift */; };
+		4101DA982C4196E3000C130C /* SampleDescriptionBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA972C4196E3000C130C /* SampleDescriptionBoxDetailView.swift */; };
+		4101DA9A2C419CE1000C130C /* AVCSampleEntryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA992C419CE1000C130C /* AVCSampleEntryDetailView.swift */; };
+		4101DA9C2C41A2FE000C130C /* AVCConfigurationBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA9B2C41A2FE000C130C /* AVCConfigurationBoxDetailView.swift */; };
+		4101DA9E2C41A890000C130C /* TimeToSampleBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA9D2C41A890000C130C /* TimeToSampleBoxDetailView.swift */; };
+		4101DAA02C41AA73000C130C /* SyncSampleBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DA9F2C41AA72000C130C /* SyncSampleBoxDetailView.swift */; };
+		4101DAA22C41AB6D000C130C /* SampleToChunkBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DAA12C41AB6D000C130C /* SampleToChunkBoxDetailView.swift */; };
+		4101DAA42C41BF85000C130C /* SampleSizeBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DAA32C41BF85000C130C /* SampleSizeBoxDetailView.swift */; };
+		4101DAA62C41C1D4000C130C /* ChunkOffsetBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DAA52C41C1D4000C130C /* ChunkOffsetBoxDetailView.swift */; };
+		4101DAA82C41C335000C130C /* CompositionOffsetDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4101DAA72C41C335000C130C /* CompositionOffsetDetailView.swift */; };
+		4105E8CB2C3F00E400301581 /* ImportButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8CA2C3F00E400301581 /* ImportButton.swift */; };
+		4105E8CD2C402F0F00301581 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8CC2C402F0F00301581 /* DetailView.swift */; };
+		4105E8CF2C40317600301581 /* SidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8CE2C40317600301581 /* SidebarView.swift */; };
+		4105E8D32C4052AB00301581 /* SampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8D22C4052AB00301581 /* SampleModel.swift */; };
+		4105E8D42C40540300301581 /* file_example_MP4_480_1_5MG.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 4105E8D12C40527C00301581 /* file_example_MP4_480_1_5MG.mp4 */; };
+		4105E8D82C40729300301581 /* FileTypeBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8D72C40729300301581 /* FileTypeBoxDetailView.swift */; };
+		4105E8DB2C40901900301581 /* MovieHeaderBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8DA2C40901900301581 /* MovieHeaderBoxDetailView.swift */; };
+		4105E8DD2C4095BC00301581 /* TrackHeaderBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8DC2C4095BC00301581 /* TrackHeaderBoxDetailView.swift */; };
+		4105E8DF2C4098B900301581 /* EditListBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8DE2C4098B900301581 /* EditListBoxDetailView.swift */; };
+		4105E8E12C409A9100301581 /* MediaHeaderBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8E02C409A9100301581 /* MediaHeaderBoxDetailView.swift */; };
+		4105E8E32C409CA700301581 /* HandlerBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8E22C409CA700301581 /* HandlerBoxDetailView.swift */; };
+		4105E8E52C409F6100301581 /* VideoMediaHeaderBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8E42C409F6100301581 /* VideoMediaHeaderBoxDetailView.swift */; };
+		4105E8E72C40A17E00301581 /* SoundMediaHeaderBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4105E8E62C40A17E00301581 /* SoundMediaHeaderBoxDetailView.swift */; };
+		410FF0E32C40A4EF0050C232 /* DataReferenceBoxDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FF0E22C40A4EF0050C232 /* DataReferenceBoxDetailView.swift */; };
+		413368402C3C42EB00A3AD4B /* MP4Parser in Frameworks */ = {isa = PBXBuildFile; productRef = 4133683F2C3C42EB00A3AD4B /* MP4Parser */; };
+		413368422C3C4FE700A3AD4B /* MP4AnalizerCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413368412C3C4FE700A3AD4B /* MP4AnalizerCommands.swift */; };
 		41ACEDA22C3C362500BD57FA /* MP4AnalizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACEDA12C3C362500BD57FA /* MP4AnalizerApp.swift */; };
 		41ACEDA42C3C362500BD57FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41ACEDA32C3C362500BD57FA /* ContentView.swift */; };
 		41ACEDA62C3C362700BD57FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41ACEDA52C3C362700BD57FA /* Assets.xcassets */; };
@@ -14,6 +40,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4101DA952C419443000C130C /* DataEntryUrlBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataEntryUrlBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DA972C4196E3000C130C /* SampleDescriptionBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDescriptionBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DA992C419CE1000C130C /* AVCSampleEntryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCSampleEntryDetailView.swift; sourceTree = "<group>"; };
+		4101DA9B2C41A2FE000C130C /* AVCConfigurationBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCConfigurationBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DA9D2C41A890000C130C /* TimeToSampleBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeToSampleBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DA9F2C41AA72000C130C /* SyncSampleBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncSampleBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DAA12C41AB6D000C130C /* SampleToChunkBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleToChunkBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DAA32C41BF85000C130C /* SampleSizeBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSizeBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DAA52C41C1D4000C130C /* ChunkOffsetBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChunkOffsetBoxDetailView.swift; sourceTree = "<group>"; };
+		4101DAA72C41C335000C130C /* CompositionOffsetDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionOffsetDetailView.swift; sourceTree = "<group>"; };
+		4105E8CA2C3F00E400301581 /* ImportButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportButton.swift; sourceTree = "<group>"; };
+		4105E8CC2C402F0F00301581 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4105E8CE2C40317600301581 /* SidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidebarView.swift; sourceTree = "<group>"; };
+		4105E8D12C40527C00301581 /* file_example_MP4_480_1_5MG.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = file_example_MP4_480_1_5MG.mp4; sourceTree = "<group>"; };
+		4105E8D22C4052AB00301581 /* SampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleModel.swift; sourceTree = "<group>"; };
+		4105E8D72C40729300301581 /* FileTypeBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileTypeBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8DA2C40901900301581 /* MovieHeaderBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieHeaderBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8DC2C4095BC00301581 /* TrackHeaderBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackHeaderBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8DE2C4098B900301581 /* EditListBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditListBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8E02C409A9100301581 /* MediaHeaderBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHeaderBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8E22C409CA700301581 /* HandlerBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandlerBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8E42C409F6100301581 /* VideoMediaHeaderBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoMediaHeaderBoxDetailView.swift; sourceTree = "<group>"; };
+		4105E8E62C40A17E00301581 /* SoundMediaHeaderBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMediaHeaderBoxDetailView.swift; sourceTree = "<group>"; };
+		410FF0E22C40A4EF0050C232 /* DataReferenceBoxDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataReferenceBoxDetailView.swift; sourceTree = "<group>"; };
+		413368412C3C4FE700A3AD4B /* MP4AnalizerCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4AnalizerCommands.swift; sourceTree = "<group>"; };
 		41ACED9E2C3C362500BD57FA /* MP4Analizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MP4Analizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		41ACEDA12C3C362500BD57FA /* MP4AnalizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MP4AnalizerApp.swift; sourceTree = "<group>"; };
 		41ACEDA32C3C362500BD57FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -27,12 +78,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				413368402C3C42EB00A3AD4B /* MP4Parser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4105E8D02C40520F00301581 /* SampleForPreview */ = {
+			isa = PBXGroup;
+			children = (
+				4105E8D12C40527C00301581 /* file_example_MP4_480_1_5MG.mp4 */,
+				4105E8D22C4052AB00301581 /* SampleModel.swift */,
+			);
+			path = SampleForPreview;
+			sourceTree = "<group>";
+		};
+		4105E8D92C408FE500301581 /* TypeDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				4105E8D72C40729300301581 /* FileTypeBoxDetailView.swift */,
+				4101DA972C4196E3000C130C /* SampleDescriptionBoxDetailView.swift */,
+				410FF0E22C40A4EF0050C232 /* DataReferenceBoxDetailView.swift */,
+				4105E8E42C409F6100301581 /* VideoMediaHeaderBoxDetailView.swift */,
+				4105E8E22C409CA700301581 /* HandlerBoxDetailView.swift */,
+				4105E8E02C409A9100301581 /* MediaHeaderBoxDetailView.swift */,
+				4105E8DE2C4098B900301581 /* EditListBoxDetailView.swift */,
+				4105E8DA2C40901900301581 /* MovieHeaderBoxDetailView.swift */,
+				4105E8DC2C4095BC00301581 /* TrackHeaderBoxDetailView.swift */,
+				4105E8E62C40A17E00301581 /* SoundMediaHeaderBoxDetailView.swift */,
+				4101DA952C419443000C130C /* DataEntryUrlBoxDetailView.swift */,
+				4101DA992C419CE1000C130C /* AVCSampleEntryDetailView.swift */,
+				4101DA9B2C41A2FE000C130C /* AVCConfigurationBoxDetailView.swift */,
+				4101DA9D2C41A890000C130C /* TimeToSampleBoxDetailView.swift */,
+				4101DA9F2C41AA72000C130C /* SyncSampleBoxDetailView.swift */,
+				4101DAA12C41AB6D000C130C /* SampleToChunkBoxDetailView.swift */,
+				4101DAA32C41BF85000C130C /* SampleSizeBoxDetailView.swift */,
+				4101DAA52C41C1D4000C130C /* ChunkOffsetBoxDetailView.swift */,
+				4101DAA72C41C335000C130C /* CompositionOffsetDetailView.swift */,
+			);
+			path = TypeDetailView;
+			sourceTree = "<group>";
+		};
 		41ACED952C3C362500BD57FA = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +140,13 @@
 			isa = PBXGroup;
 			children = (
 				41ACEDA12C3C362500BD57FA /* MP4AnalizerApp.swift */,
+				413368412C3C4FE700A3AD4B /* MP4AnalizerCommands.swift */,
 				41ACEDA32C3C362500BD57FA /* ContentView.swift */,
+				4105E8CE2C40317600301581 /* SidebarView.swift */,
+				4105E8CC2C402F0F00301581 /* DetailView.swift */,
+				4105E8D92C408FE500301581 /* TypeDetailView */,
+				4105E8CA2C3F00E400301581 /* ImportButton.swift */,
+				4105E8D02C40520F00301581 /* SampleForPreview */,
 				41ACEDA52C3C362700BD57FA /* Assets.xcassets */,
 				41ACEDAA2C3C362700BD57FA /* MP4Analizer.entitlements */,
 				41ACEDA72C3C362700BD57FA /* Preview Content */,
@@ -85,6 +178,9 @@
 			dependencies = (
 			);
 			name = MP4Analizer;
+			packageProductDependencies = (
+				4133683F2C3C42EB00A3AD4B /* MP4Parser */,
+			);
 			productName = MP4Analizer;
 			productReference = 41ACED9E2C3C362500BD57FA /* MP4Analizer.app */;
 			productType = "com.apple.product-type.application";
@@ -97,7 +193,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					41ACED9D2C3C362500BD57FA = {
 						CreatedOnToolsVersion = 15.3;
@@ -113,6 +209,9 @@
 				Base,
 			);
 			mainGroup = 41ACED952C3C362500BD57FA;
+			packageReferences = (
+				4133683E2C3C42EB00A3AD4B /* XCRemoteSwiftPackageReference "MP4Parser" */,
+			);
 			productRefGroup = 41ACED9F2C3C362500BD57FA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -128,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41ACEDA92C3C362700BD57FA /* Preview Assets.xcassets in Resources */,
+				4105E8D42C40540300301581 /* file_example_MP4_480_1_5MG.mp4 in Resources */,
 				41ACEDA62C3C362700BD57FA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +239,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4101DAA02C41AA73000C130C /* SyncSampleBoxDetailView.swift in Sources */,
+				4105E8E52C409F6100301581 /* VideoMediaHeaderBoxDetailView.swift in Sources */,
+				4101DA9E2C41A890000C130C /* TimeToSampleBoxDetailView.swift in Sources */,
+				4105E8DD2C4095BC00301581 /* TrackHeaderBoxDetailView.swift in Sources */,
+				4101DAA42C41BF85000C130C /* SampleSizeBoxDetailView.swift in Sources */,
+				4101DA9A2C419CE1000C130C /* AVCSampleEntryDetailView.swift in Sources */,
+				4101DAA22C41AB6D000C130C /* SampleToChunkBoxDetailView.swift in Sources */,
+				4105E8CB2C3F00E400301581 /* ImportButton.swift in Sources */,
 				41ACEDA42C3C362500BD57FA /* ContentView.swift in Sources */,
+				413368422C3C4FE700A3AD4B /* MP4AnalizerCommands.swift in Sources */,
+				4101DA962C419443000C130C /* DataEntryUrlBoxDetailView.swift in Sources */,
+				4105E8CD2C402F0F00301581 /* DetailView.swift in Sources */,
+				410FF0E32C40A4EF0050C232 /* DataReferenceBoxDetailView.swift in Sources */,
+				4101DA982C4196E3000C130C /* SampleDescriptionBoxDetailView.swift in Sources */,
+				4105E8E12C409A9100301581 /* MediaHeaderBoxDetailView.swift in Sources */,
+				4101DAA62C41C1D4000C130C /* ChunkOffsetBoxDetailView.swift in Sources */,
+				4105E8DB2C40901900301581 /* MovieHeaderBoxDetailView.swift in Sources */,
+				4105E8DF2C4098B900301581 /* EditListBoxDetailView.swift in Sources */,
 				41ACEDA22C3C362500BD57FA /* MP4AnalizerApp.swift in Sources */,
+				4105E8D32C4052AB00301581 /* SampleModel.swift in Sources */,
+				4101DA9C2C41A2FE000C130C /* AVCConfigurationBoxDetailView.swift in Sources */,
+				4105E8E72C40A17E00301581 /* SoundMediaHeaderBoxDetailView.swift in Sources */,
+				4105E8E32C409CA700301581 /* HandlerBoxDetailView.swift in Sources */,
+				4101DAA82C41C335000C130C /* CompositionOffsetDetailView.swift in Sources */,
+				4105E8CF2C40317600301581 /* SidebarView.swift in Sources */,
+				4105E8D82C40729300301581 /* FileTypeBoxDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +305,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -244,6 +369,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -271,9 +397,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MP4Analizer/MP4Analizer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MP4Analizer/Preview Content\"";
 				DEVELOPMENT_TEAM = FLBHDZQ3QA;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -284,7 +412,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberseeds.MP4Analizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -298,9 +426,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MP4Analizer/MP4Analizer.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"MP4Analizer/Preview Content\"";
 				DEVELOPMENT_TEAM = FLBHDZQ3QA;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -311,7 +441,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cyberseeds.MP4Analizer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -341,6 +471,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4133683E2C3C42EB00A3AD4B /* XCRemoteSwiftPackageReference "MP4Parser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cyber937/MP4Parser";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4133683F2C3C42EB00A3AD4B /* MP4Parser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4133683E2C3C42EB00A3AD4B /* XCRemoteSwiftPackageReference "MP4Parser" */;
+			productName = MP4Parser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 41ACED962C3C362500BD57FA /* Project object */;
 }

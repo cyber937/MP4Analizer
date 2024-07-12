@@ -13,5 +13,8 @@ struct MP4AnalizerApp: App {
         WindowGroup {
             ContentView()
         }
+        .commands {
+            MP4AnalizerCommands()
+        }
     }
 }

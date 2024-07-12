@@ -1,0 +1,15 @@
+{
+  "originHash" : "e0f7dce98b831518ab07aabe6bd429fbafb4112a7694b8da87ee13a3cf0dc94d",
+  "pins" : [
+    {
+      "identity" : "mp4parser",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/cyber937/MP4Parser",
+      "state" : {
+        "branch" : "main",
+        "revision" : "a623e577b7e335d567f2b7d0c798aeff5206096e"
+      }
+    }
+  ],
+  "version" : 3
+}
