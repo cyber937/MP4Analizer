@@ -36,48 +36,7 @@ struct DetailView: View {
                     }.padding()
                 }
                 
-                switch selectedBox?.type {
-                case .ftyp:
-                    FileTypeBoxDetailView(fileTypeBox: $selectedBox)
-                case .mvhd:
-                    MovieHeaderBoxDetailView(movieheaderBox: $selectedBox)
-                case .tkhd:
-                    TrackHeaderBoxDetailView(trackheaderBox: $selectedBox)
-                case .elst:
-                    EditListBoxDetailView(editListBox: $selectedBox)
-                case .mdhd:
-                    MediaHeaderBoxDetailView(mediaheaderBox: $selectedBox)
-                case .hdlr:
-                    HandlerBoxDetailView(handlerBox: $selectedBox)
-                case .vmhd:
-                    VideoMediaHeaderBoxDetailView(videoMediaHeaderBox: $selectedBox)
-                case .smhd:
-                    SoundMediaHeaderBoxDetailView(soundMediaHeaderBox: $selectedBox)
-                case .dref:
-                    DataReferenceBoxDetailView(dataReferenceBox: $selectedBox)
-                case .url:
-                    DataEntryUrlBoxDetailView(dataEntryUrlBox: $selectedBox)
-                case .stsd:
-                    SampleDescriptionBoxDetailView(sampleDescriptionBox: $selectedBox)
-                case .avc1:
-                    AVCSampleEntryDetailView(avcSampleEntry: $selectedBox)
-                case .avcC:
-                    AVCConfigurationBoxDetailView(avcConfigurationBox: $selectedBox)
-                case .stts:
-                    TimeToSampleBoxDetailView(timeToSampleBox: $selectedBox)
-                case .stss:
-                    SyncSampleBoxDetailView(syncSampleBox: $selectedBox)
-                case .stsc:
-                    SampleToChunkBoxDetailView(sampleToChunkBox: $selectedBox)
-                case .stsz:
-                    SampleSizeBoxDetailView(sampleSizeBox: $selectedBox)
-                case .stco:
-                    ChunkOffsetBoxDetailView(chunkOffsetBox: $selectedBox)
-                case .ctts:
-                    CompositionOffsetDetailView(compositionOffsetBox: $selectedBox)
-                default:
-                    EmptyView()
-                }
+                typeDetailView
                 
                 Spacer()
             }.padding()
@@ -94,5 +53,54 @@ struct DetailView: View {
         return DetailView(selectedBox: $selectedBox)
     } catch {
         return Text("Error!")
+    }
+}
+
+extension DetailView {
+    
+    private var typeDetailView: some View {
+
+        VStack {
+            switch selectedBox?.type {
+            case .ftyp:
+                FileTypeBoxDetailView(fileTypeBox: $selectedBox)
+            case .mvhd:
+                MovieHeaderBoxDetailView(movieheaderBox: $selectedBox)
+            case .tkhd:
+                TrackHeaderBoxDetailView(trackheaderBox: $selectedBox)
+            case .elst:
+                EditListBoxDetailView(editListBox: $selectedBox)
+            case .mdhd:
+                MediaHeaderBoxDetailView(mediaheaderBox: $selectedBox)
+            case .hdlr:
+                HandlerBoxDetailView(handlerBox: $selectedBox)
+            case .vmhd:
+                VideoMediaHeaderBoxDetailView(videoMediaHeaderBox: $selectedBox)
+            case .smhd:
+                SoundMediaHeaderBoxDetailView(soundMediaHeaderBox: $selectedBox)
+            case .dref:
+                DataReferenceBoxDetailView(dataReferenceBox: $selectedBox)
+            case .url:
+                DataEntryUrlBoxDetailView(dataEntryUrlBox: $selectedBox)
+            case .stsd:
+                SampleDescriptionBoxDetailView(sampleDescriptionBox: $selectedBox)
+            case .avc1:
+                AVCConfigurationBoxDetailView(avcConfigurationBox: $selectedBox)
+            case .stts:
+                TimeToSampleBoxDetailView(timeToSampleBox: $selectedBox)
+            case .stss:
+                SyncSampleBoxDetailView(syncSampleBox: $selectedBox)
+            case .stsc:
+                SampleToChunkBoxDetailView(sampleToChunkBox: $selectedBox)
+            case .stsz:
+                SampleSizeBoxDetailView(sampleSizeBox: $selectedBox)
+            case .stco:
+                ChunkOffsetBoxDetailView(chunkOffsetBox: $selectedBox)
+            case .ctts:
+                CompositionOffsetDetailView(compositionOffsetBox: $selectedBox)
+            default:
+                EmptyView()
+            }
+        }
     }
 }
